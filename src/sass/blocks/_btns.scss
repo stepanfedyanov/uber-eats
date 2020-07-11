@@ -1,0 +1,24 @@
+.btn {
+    width: 96px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: $main-color;
+    border: none;
+    font-size: 19px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    &_order {
+        width: 180px;
+        height: 50px;
+    }
+    &_promo {
+        display: block;
+        margin-left: auto;
+    }
+    &_deliver {
+        width: 200px;
+        height: 70px;
+    }
+}
+

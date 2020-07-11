@@ -1,0 +1,25 @@
+.deliver {
+    position: relative;
+    min-height: 420px;
+    &__img {
+        position: absolute;
+        top: -65px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    &__tittle {
+        text-align: right;
+    }
+    &__form {
+        input {
+            padding-left: 34px;
+            width: 415px;
+            height: 70px;
+            border-radius: 10px;
+            border: solid 1px #9b9a9a;
+        }
+    }
+}

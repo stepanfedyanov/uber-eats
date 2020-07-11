@@ -1,0 +1,19 @@
+.promo {
+    min-height: 932px;
+    background: url(../img/promo/bg.png) center center no-repeat;
+    padding-top: 47px;
+    &__tittle {
+        margin-top: 196px;
+        margin-bottom: 30px;
+    }
+    &__subtittle {
+        font-size: 21px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: rgba(0, 0, 0, 0.8);
+        margin-bottom: 38px;
+    }
+}
