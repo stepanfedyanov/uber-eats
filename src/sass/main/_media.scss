@@ -9,6 +9,29 @@
     .deliver img {
         display: none;
     }
+    .favourites__lines {
+        display: none;
+    }
+    .favourites__wrapper {
+        flex-direction: column-reverse;
+        justify-content: center;
+    }
+    .favourites__phone {
+       height: 600px;
+       padding-bottom: 50px;
+    }
+    .account__hands {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .account__mushroom {
+        display: none;
+    }
+    .account__lines {
+        margin-top: 100px;
+    }
 }
 
 @media (max-width: 425px) {
@@ -33,6 +56,13 @@
     .deliver button {
         margin-top: 10px;
     }
+    .favourites__text {
+        margin-right: 0;
+    }
+    .account__text {
+        padding-right: 127px;
+        padding-top: 0;
+    }
 }
 
 @media (max-width: 375px) {
@@ -43,11 +73,31 @@
     .deliver input {
         width: 257px;
     }
+    .favourites {
+        padding-top: 250px;
+        min-height: 1200px;
+    }
+    .favourites__phone {
+        height: 500px;
+        padding-bottom: 50px;
+    }
+    .account__text {
+        padding-right: 0;
+    }
+    .account__rest {
+        display: none;
+    }
+    .account {
+        min-height: 430px;
+    }
 }
    
 @media (max-width: 320px ) {
     .deliver input {
         padding-left: 16px;
         width: 205px;
+    }
+    .favourites__phone {
+        height: 400px;
     }
 }

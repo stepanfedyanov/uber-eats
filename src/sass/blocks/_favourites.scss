@@ -1,0 +1,17 @@
+.favourites {
+    min-height: 1400px;
+    background: url(../img/favourites/bg.jpg) center (center/cover) no-repeat;
+    padding-top: 262px;
+    &__text {
+        margin-right: 200px;
+    }
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    &__lines {
+        margin-bottom: 130px;
+        margin-left: 160px;
+    }
+}

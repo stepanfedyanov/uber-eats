@@ -1,0 +1,30 @@
+.account {
+    min-height: 557px;
+    position: relative;
+    &__hands {
+        left: 0;
+        position: absolute;
+        height: 100%;
+    }
+    &__rest {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    &__text {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding-top: 200px;
+        padding-right: 280px;
+    }
+    &__mushroom {
+        top: -75px;
+        position: absolute;
+    }
+    &__lines {
+        margin-top: 150px;
+    }
+}
