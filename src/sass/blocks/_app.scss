@@ -1,0 +1,50 @@
+.app {
+    min-height: 796px;
+    position: relative;
+    &__lines {
+        position: absolute;
+        left: 43%;
+    }
+    &__wrapper {
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+    &__grass {
+        position: absolute;
+        right: 0;
+        bottom: 100px;
+    }
+    &__plate-veg {
+        position: absolute;
+        right: 0;
+        top: -104px;
+    }
+    &__plate {
+        position: absolute;
+        left: 70%;
+        bottom: 0;
+    }
+    &__store {
+        height: 63px;
+    }
+    &__left {
+        display: flex;
+        flex-direction: column;
+    }
+    &__text {
+        display: flex;
+        align-items: center;
+        margin-bottom: 84px;
+    }
+    &__appstore {
+        display: flex;
+    }
+    &__apple {
+        margin-left: 20px;
+    }
+    &__tittle {
+        font-size: 40px;
+        margin-left: 35px;
+    }
+}

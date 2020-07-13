@@ -1,0 +1,42 @@
+.partners {
+    min-height: 748px;
+    background: url(../img/partners/bg.svg) no-repeat center;
+    background-size: cover;
+    padding-top: 270px;
+    padding-left: 270px;
+    padding-right: 270px;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    &__line {
+        width: 2px;
+        height: 401px;
+        opacity: 0.1;
+        background-color: #262626;
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    &__tittle {
+        font-size: 35px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 2;
+        letter-spacing: -0.7px;
+        text-align: left;
+        color: $main-color;
+    }
+    &__sub {
+        font-size: 20px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.7;
+        letter-spacing: -0.4px;
+        text-align: left;
+        color: #303030;
+    }
+
+}

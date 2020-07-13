@@ -15,6 +15,12 @@
     .rest__tittle {
         margin-bottom: 150px;
     }
+    .partners__line {
+        display: none;
+    }
+    .partners__item {
+        margin-top: 50px;
+    }
 }
 
 @media (max-width: 1024px) {
@@ -42,6 +48,27 @@
     .rest__tittle {
         padding-right: 0;
     }
+    .app {
+        min-height: 600px;
+    }
+    .app__grass {
+        display: none;
+    }
+    .app__veg {
+        height: 500px;
+    }
+    .app__plate {
+        display: none;
+    }
+    .app__plate-veg {
+        height: 200px;
+    }
+    .app__store {
+        height: 40px;
+    }
+    .app__icon {
+        height: 90px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -60,6 +87,23 @@
     }
     .rest__wrapper {
         flex-direction: column-reverse;
+    }
+    .app__veg {
+        display: none;
+    }
+    .app {
+        padding-top: 100px;
+        min-height: 500px;
+    }
+    .app__lines {
+        top: 0px;
+    }
+    .app__plate-veg {
+        top: 100px;
+    }
+    .partners {
+        padding-left: 100px;
+        padding-right: 100px;
     }
 }
 
@@ -95,6 +139,13 @@
     .rest {
         padding-top: 0;
         min-height: 1000px;
+    }
+    .app__plate-veg {
+        display: none;
+    }
+    .partners {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -138,5 +189,11 @@
     }
     .rest__phone {
         height: 400px;
+    }
+    .app__tittle {
+        font-size: 28px;
+    }
+    .app__store {
+        height: 35px;
     }
 }
