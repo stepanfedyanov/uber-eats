@@ -1,6 +1,7 @@
 .promo {
     min-height: 932px;
-    background: url(../img/promo/bg.png) center (center/cover) no-repeat;
+    background: url(../img/promo/bg.png) no-repeat center;
+    background-size: cover;
     padding-top: 47px;
     &__tittle {
         margin-top: 196px;

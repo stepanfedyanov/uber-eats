@@ -1,6 +1,7 @@
 .favourites {
     min-height: 1400px;
-    background: url(../img/favourites/bg.jpg) center (center/cover) no-repeat;
+    background: url(../img/favourites/bg.jpg) no-repeat center;
+    background-size: cover;
     padding-top: 262px;
     &__text {
         margin-right: 200px;

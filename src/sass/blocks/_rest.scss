@@ -1,0 +1,14 @@
+.rest {
+    min-height: 1400px;
+    background: url(../img/rest/bg.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 280px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__tittle {
+        padding-right: 200px;
+        margin-bottom: 100px;
+    }
+}

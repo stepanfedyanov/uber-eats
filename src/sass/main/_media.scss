@@ -1,13 +1,26 @@
+@media (min-width: 1921px) {
+    .favourites {
+        background: none;
+    }
+    .rest {
+        background: none;
+    }
+}
+
 @media  (max-width: 1440px) {
     .container {
         padding-left: 60px;
         padding-right: 60px;
     }
+    .rest__tittle {
+        margin-bottom: 150px;
+    }
 }
 
 @media (max-width: 1024px) {
     .deliver img {
-        display: none;
+        height: 200px;
+        top: 10%;
     }
     .favourites__lines {
         display: none;
@@ -23,14 +36,30 @@
     .account__hands {
         display: none;
     }
+    .rest__phone {
+        height: 700px;
+    }
+    .rest__tittle {
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 768px) {
+    .deliver img {
+        display: none;
+    }
     .account__mushroom {
         display: none;
     }
     .account__lines {
         margin-top: 100px;
+    }
+    .rest {
+        min-height: 1300px;
+        background: none;
+    }
+    .rest__wrapper {
+        flex-direction: column-reverse;
     }
 }
 
@@ -63,6 +92,10 @@
         padding-right: 127px;
         padding-top: 0;
     }
+    .rest {
+        padding-top: 0;
+        min-height: 1000px;
+    }
 }
 
 @media (max-width: 375px) {
@@ -90,6 +123,9 @@
     .account {
         min-height: 430px;
     }
+    .rest__phone {
+        height: 600px;
+    }
 }
    
 @media (max-width: 320px ) {
@@ -98,6 +134,9 @@
         width: 205px;
     }
     .favourites__phone {
+        height: 400px;
+    }
+    .rest__phone {
         height: 400px;
     }
 }
