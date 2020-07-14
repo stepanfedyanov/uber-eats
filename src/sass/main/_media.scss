@@ -69,6 +69,13 @@
     .app__icon {
         height: 90px;
     }
+    .footer__wrapper {
+        flex-direction: column;
+    }
+    .footer__block {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 @media (max-width: 768px) {
