@@ -1,10 +1,9 @@
 .partners {
     min-height: 748px;
+    background-color: rgb(237, 238, 240);
     background: url(../img/partners/bg.svg) no-repeat center;
     background-size: cover;
-    padding-top: 270px;
-    padding-left: 270px;
-    padding-right: 270px;
+    padding: 270px;
     &__wrapper {
         display: flex;
         justify-content: center;
